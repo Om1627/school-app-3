@@ -1,0 +1,190 @@
+
+.zen{
+    color: #A028D8;
+}
+
+.abt{
+    color: rgba(82, 3, 40, 0.932);
+}
+
+.act{
+    color: rgb(83, 22, 99);
+}
+
+.evt{
+    color: darkred;
+}
+
+.exp{
+    color: darkred;
+}
+
+
+hr{
+    height:10px;
+    
+    border-width:20;color:black;
+    background-color:lightgreen
+}
+
+
+
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.AboutHeader{
+    background-color: rgb(162, 231, 235);
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.ActHeader{
+    background-color:rgba(9, 210, 245, 0.842);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ExpHeader{
+    background-color: palegreen;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.EventsHeader{
+    background-color:rgb(14, 252, 252) ;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    
+    
+    display: flex; 
+    justify-content: center;
+    
+}
+
+
+
+.footer{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    background-color:#c71919ec;
+
+}
+
+.menu a:link{
+    margin-left: 30px;
+   
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: rgb(34, 220, 226);
+    font-size: large;
+
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+    
+}
+
+a:link{
+    color: ghostwhite;
+   
+}
+a:visited{
+    color: rgb(255, 0, 106);
+}
+
+
+
+.bodyabt{
+    background-color: darkgrey;
+}
+
+.bodyact{
+    background-color: maroon;
+}
+
+.bodyevt{
+background-color: forestgreen;
+}
+
+.bodyexps{
+    background-color: gold;
+}
+
+.AboutPara{
+
+    background-color: springgreen;
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+    
+}
+
+.ActPara{
+
+    background-color: rgb(114, 231, 216);
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+}
+
+.EventsPara{
+
+    background-color: lightgrey;
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+}
+
+.ExpPara{
+
+    background-color: lightcyan;
+    display: flexbox;
+    justify-content:flex-start;
+    font-size: x-large;
+}
+
+.budhimg{
+    margin:50px;
+    display:flex;
+    justify-content: center;
+ 
+ }
+ 
