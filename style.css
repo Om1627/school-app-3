@@ -91,7 +91,7 @@ hr{
     justify-content: flex-end;
 }
 
-main{
+.main{
     background-color:#c71919ec;
 
 }
@@ -123,7 +123,7 @@ main{
 }
 
 a:link{
-    color: ghostwhite;
+    color: blue;
    
 }
 a:visited{
